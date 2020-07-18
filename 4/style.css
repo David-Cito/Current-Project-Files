@@ -1,0 +1,111 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    max-width: 1128px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.item{
+    margin: 0;
+}
+
+.title-section {
+    padding: 12em 0;
+    background: #F3EED9;
+    min-height: 660px;
+}
+
+.title-content {
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-title {    
+    color: #824936;
+    font-family: 'Playfair Display', serif;    font-size: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-title span {
+    text-align: center;
+}
+
+.secondary-title {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: .4em;
+}
+
+.design-content {
+    padding: 5em;
+    background: #fff;
+    flex-direction: column;
+    align-items: center;
+}
+
+.design-text {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 21px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.design-header {
+    font-family: 'Playfair Display', serif;    
+    font-size: 36px;
+    color: #824936;
+}
+
+.design-para-1 {
+    width: 40%;
+}
+
+.design-para-2 {
+    width: 40%;
+}
+
+.first-photo-section {
+    padding: 6em;
+    background: #222C2A;
+}
+
+.first-photo-content {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.first-photo-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 21px;
+    font-family: 'Roboto', sans-serif;
+    align-self: flex-start;
+    width: 45%;
+}
+
+.first-photo-header {
+    margin-top: 0.3em;
+    color: #F3EED9;
+}
+
+.first-photo {
+    width: 45%;
+}
+
+.first-photo-para {
+    color: #fff;
+}
