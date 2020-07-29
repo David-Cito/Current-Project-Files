@@ -1,0 +1,161 @@
+*, *::before,*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    color: #fff;
+}
+
+h1,h2,h3,h4 {
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    font-size: 24px;
+    padding: 0;
+}
+
+.light-header {
+    color:#fff;
+}
+
+.dark-header {
+    color: #A59678;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0em 1.75em;
+}
+
+.col {
+    text-align: center;
+}
+
+
+/* 
+
+font-family: 'Montserrat', sans-serif;
+font-family: 'Oswald', sans-serif;
+
+*/
+
+/* Nav */
+
+.main-nav {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.nav_list {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+.list_item {
+}
+
+.nav_link {
+    text-decoration: none;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+}
+
+.nav_container {
+    display: flex;
+}
+
+header {
+    background: #2E323F;
+    padding: .5em 0;
+}
+
+.nav_list-primary {
+    margin-left: 25%;
+}
+
+.nav_list-secondary {
+    margin-left: auto;
+}
+
+li + li {
+    margin-left: 1em;
+}
+
+.sign-up-btn {
+    background: #A59678;
+    border-radius: 10em;
+    padding: .15em .5em;
+}
+
+/* End of nav/header */
+
+/* hero */
+
+.hero {
+    background: #3B4050;
+    padding: 0em 0em 2em 0em;
+}
+
+.hero-title {
+    font-size: 3rem;
+    margin: 0;
+    border: 2px solid red;
+
+}
+
+span {
+    color: #A59678;
+}
+
+.hero-btn {
+    text-transform: uppercase;
+    background: #A59678;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+    padding: .12em 1em;
+    border-radius: 10rem;
+    font-size: 1.5rem;
+}
+
+.hero-content {
+    font-size: 1.25rem;
+}
+
+/* end of hero */
+
+/* Section one */
+
+.section_one {
+    padding: 2em 0em;
+    background: #e7e1d3;
+}
+
+.section_one-content {
+    color: #2E323F;
+    padding: 0em 3em;
+}
+/* End of section one */
+
+/* Section Two */
+
+.section_two {
+    padding: 2em 0;
+}
+
+.section_two-content {
+    color: #2E323F;
+}
+
+/* End of section two */
