@@ -5,14 +5,14 @@
 body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
-    font-size: 1em;
+    font-size: 1rem;
     color: #fff;
 }
 
 h1,h2,h3,h4 {
     font-family: 'Oswald', sans-serif;
     margin: 0;
-    font-size: 24px;
+    font-size: 1.7rem;
     padding: 0;
 }
 
@@ -30,14 +30,16 @@ img {
 
 .container {
     max-width: 1200px;
-    margin: 0em 1.75em;
+    margin: 0 3em;
 }
 
 .col {
     text-align: center;
 }
 
-
+.section_one-content, .hero-content, .footer-content {
+    max-width: none;
+}
 /* 
 
 font-family: 'Montserrat', sans-serif;
@@ -81,11 +83,11 @@ header {
 }
 
 .nav_list-primary {
-    margin-left: 25%;
+    margin-left: auto;
 }
 
 .nav_list-secondary {
-    margin-left: auto;
+    margin-left: 1em;
 }
 
 li + li {
@@ -104,14 +106,12 @@ li + li {
 
 .hero {
     background: #3B4050;
-    padding: 0em 0em 2em 0em;
+    padding: .5em 0em 2em 0em;
 }
 
 .hero-title {
     font-size: 3rem;
     margin: 0;
-    border: 2px solid red;
-
 }
 
 span {
@@ -126,11 +126,15 @@ span {
     color: #fff;
     padding: .12em 1em;
     border-radius: 10rem;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
 }
 
 .hero-content {
-    font-size: 1.25rem;
+    font-size: 1.1rem;
+}
+
+p {
+    max-width: 500px;
 }
 
 /* end of hero */
@@ -144,18 +148,60 @@ span {
 
 .section_one-content {
     color: #2E323F;
-    padding: 0em 3em;
+    padding: 0em 4em;
 }
 /* End of section one */
 
 /* Section Two */
 
 .section_two {
-    padding: 2em 0;
+    padding: 2em 0em;
 }
 
 .section_two-content {
     color: #2E323F;
 }
 
+.card:first-child {
+    margin-top: 3em;
+}
+.card {
+    background: #3B4050;
+    text-align: center;
+    padding: 2em 2em;
+}
+
+.card + .card {
+    margin-top: 1em;
+}
+
 /* End of section two */
+
+/*  Footer */
+
+footer {
+    background: #3B4050;
+    text-align: center;
+    padding-bottom: 1.25em;
+}
+
+.footer-main-header {
+    font-size: 2.25rem;
+    padding: 1em 0;
+}
+
+.footer-header {
+    font-size: 1.5rem;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.8rem;
+}
+
+.footer-link + .footer-link {
+    margin-left: .5em;
+}
+
+/* End of footer */
