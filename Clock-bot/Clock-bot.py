@@ -14,4 +14,12 @@ browser.find_element_by_class_name('Button_button_YWMBp1OK04').click()
 sleep(5)
 browser.find_element_by_xpath("//span[@class='time-clock-icon icon']").click()
 sleep(4)
-print(browser.find_element_by_xpath("//p[@id='clock-info']").text())
+clockTextElement = browser.find_element_by_xpath("//p[@id='clock-info']")
+clockText = clockTextElement.text
+clockButton = browser.find_element_by_id('clockIn')
+if 'out' in clockText:
+    #Click clock in 
+
+    print('out is in')
+else:
+    print('Else was reached')
